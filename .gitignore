@@ -1,6 +1,7 @@
 .idea/
 modules/
 target/
+install/
 generated-sources/
 *.iml
 *.ipr
