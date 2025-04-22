@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>s24scilws</artifactId>
-        <groupId>org.esa.s2tbx.s24scilws</groupId>
-        <version>1.2.0</version>
+        <groupId>eu.esa.opt.s24scilws</groupId>
+        <version>1.3.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -56,8 +56,8 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
                 <configuration combine.self="override">
-                    <licenseFile>${project.basedir}/../../LICENSE.html</licenseFile>
-                    <keystore>${project.basedir}/../../keystore/s2tbx.ks</keystore>
+                    <licenseFile>${project.basedir}/../../optical-toolbox/LICENSE.html</licenseFile>
+                    <keystore>${project.basedir}/../../optical-toolbox/keystore/optical.ks</keystore>
                     <keystorealias>snap</keystorealias>
                     <keystorepassword>snap-123</keystorepassword>
                     <requiresRestart>true</requiresRestart>

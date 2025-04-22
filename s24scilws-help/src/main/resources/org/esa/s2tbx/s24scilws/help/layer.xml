@@ -4,7 +4,7 @@
 <filesystem>
     <folder name="Services">
         <folder name="JavaHelp">
-            <file name="org-esa-s2tbx-s24scilws-s24scilws-help-helpset.xml" url="helpset.xml">
+            <file name="eu-esa-opt-s24scilws-s24scilws-help-helpset.xml" url="helpset.xml">
             <attr name="position" intvalue="4470"/>
             </file>
         </folder>

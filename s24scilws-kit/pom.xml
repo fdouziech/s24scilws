@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>s24scilws</artifactId>
-        <groupId>org.esa.s2tbx.s24scilws</groupId>
-        <version>1.2.0</version>
+        <groupId>eu.esa.opt.s24scilws</groupId>
+        <version>1.3.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -55,37 +55,37 @@
         -->
 
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>algorithms</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>lacs2-sources</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>toposhadow-sources</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>s24scilws-lac-reader</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>s24scilws-help</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>lacs2-adapter</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.esa.s2tbx.s24scilws</groupId>
+            <groupId>eu.esa.opt.s24scilws</groupId>
             <artifactId>toposhadow-adapter</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -107,9 +107,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.esa.s2tbx</groupId>
-            <artifactId>s2tbx-commons</artifactId>
-            <version>${s2tbx.version}</version>
+            <groupId>eu.esa.opt</groupId>
+            <artifactId>opttbx-commons</artifactId>
+            <version>${opttbx.version}</version>
         </dependency>
 
         <dependency>

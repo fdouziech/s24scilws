@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-OpenIDE-Module-Specification-Version: 1.2.0
-OpenIDE-Module-Implementation-Version: 1.2.0
+OpenIDE-Module-Specification-Version: 1.3.0
+OpenIDE-Module-Implementation-Version: 1.3.0
 OpenIDE-Module-Name: Topo Shadow Processor
 OpenIDE-Module-Display-Category: S2-4Sci Land and Water Study Toolbox
 AutoUpdate-Show-In-Client: false
@@ -8,6 +8,6 @@ AutoUpdate-Essential-Module: false
 OpenIDE-Module-Java-Dependencies: Java > 1.8
 OpenIDE-Module-Type: STA
 OpenIDE-Module-Short-Description: TopoShadow
-OpenIDE-Module: org.esa.s2tbx.s24scilws.toposhadow
+OpenIDE-Module: eu.esa.opt.s24scilws.toposhadow
 OpenIDE-Module-Alias: TopoShadow
 OpenIDE-Module-Module-Dependencies: org.esa.snap.snap.sta, org.esa.snap.snap.sta.ui

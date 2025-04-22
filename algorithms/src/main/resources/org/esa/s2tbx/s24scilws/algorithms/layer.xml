@@ -2,7 +2,7 @@
 
     <folder name="Actions">
         <folder name="Operators">
-            <file name="org-esa-s2tbx-s24scilws-algorithms-WipeOpAction.instance">
+            <file name="org-esa-opt-s24scilws-algorithms-WipeOpAction.instance">
                 <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
                 <attr name="delegate" methodvalue="org.esa.snap.core.gpf.ui.DefaultOperatorAction.create"/>
                 <attr name="displayName" stringvalue="Wipe"/>
@@ -22,9 +22,9 @@
         <folder name="Optical">
             <folder name="Thematic Water Processing">
             <folder name="S2-4Sci Land and Water Study">
-                    <file name="org-esa-s2tbx-s24scilws-algorithms-WipeOpAction.shadow">
+                    <file name="org-esa-opt-s24scilws-algorithms-WipeOpAction.shadow">
                         <attr name="originalFile"
-                              stringvalue="Actions/Operators/org-esa-s2tbx-s24scilws-algorithms-WipeOpAction.instance"/>
+                              stringvalue="Actions/Operators/org-esa-opt-s24scilws-algorithms-WipeOpAction.instance"/>
                         <attr name="position" intvalue="1"/>
                     </file>
             </folder>

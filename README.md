@@ -24,7 +24,7 @@ Clone the s24scilws source code and related repositories into a directory referr
     git clone https://github.com/senbox-org/s24scilws.git
     git clone https://github.com/senbox-org/snap-desktop.git
     git clone https://github.com/senbox-org/snap-engine.git
-    git clone https://github.com/senbox-org/s2tbx.git
+    git clone https://github.com/senbox-org/optical-toolbox.git
     
 Build SNAP-Engine:
 
@@ -36,9 +36,9 @@ Build SNAP-Desktop:
     cd ${snap}/snap-desktop
     mvn install
 
-Build s2tbx:
+Build optical-toolbox:
 
-    cd ${snap}/s2tbx
+    cd ${snap}/optical-toolbox
     mvn install
 
 Build s24scilws Toolbox:
@@ -70,9 +70,9 @@ the option *Create module groups for multi-module Maven projects*. Everything ca
     --userdir
     "${snap}/s24scilws/target/userdir"
     --clusters
-    "${snap}/s2tbx/s2tbx-kit/target/netbeans_clusters/s2tbx;${snap}/s24scilws/s24scilws-kit/target/netbeans_clusters/s24scilws"
+    "${snap}/optical-toolbox/opttbx-kit/target/netbeans_clusters/opttbx;${snap}/s24scilws/s24scilws-kit/target/netbeans_clusters/s24scilws"
     --patches
-    "${snap}/snap-engine/$/target/classes;${snap}/s2tbx/$/target/classes;${snap}/s24scilws/$/target/classes"
+    "${snap}/snap-engine/$/target/classes;${snap}/optical-toolbox/$/target/classes;${snap}/s24scilws/$/target/classes"
     **Working directory:** ${snap}/snap-desktop/snap-application/target/snap/
     **Use classpath of module:** snap-main
 
